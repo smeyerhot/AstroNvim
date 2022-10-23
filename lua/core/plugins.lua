@@ -19,6 +19,13 @@ local astro_plugins = {
     config = function() require "core.plugins" end,
   },
 
+  -- Auto Save
+  ["Pocco81/auto-save.nvim"] = {},
+  -- Symbols outline
+  ["simrat39/symbols-outline.nvim"] = {
+    event = "BufEnter",
+    config = function() require "configs.symbols-outline" end,
+  },
   -- Optimiser
   ["lewis6991/impatient.nvim"] = {},
 
