@@ -115,6 +115,9 @@ maps.n["<leader>b|"] = {
   desc = "Vertical split buffer from tabline",
 }
 
+
+maps.n['<leader>at'] = { '<cmd>AerialToggle!<CR>', desc = "Aerial Toggle" }
+
 -- Navigate tabs
 maps.n["]t"] = { function() vim.cmd.tabnext() end, desc = "Next tab" }
 maps.n["[t"] = { function() vim.cmd.tabprevious() end, desc = "Previous tab" }
@@ -132,6 +135,7 @@ if is_available "alpha-nvim" then
     desc = "Home Screen",
   }
 end
+
 
 -- Comment
 if is_available "Comment.nvim" then
