@@ -1,5 +1,8 @@
 return {
   { "AstroNvim/astrotheme", version = "^1.1" },
+
+  { "stevearc/aerial.nvim", commit = "3a17406d9d8f01f46d207f42d8849eb924eb0755"},
+  { "Pocco81/auto-save.nvim", commit = "979b6c82f60cfa80f4cf437d77446d0ded0addf0"},
   { "JoosepAlviste/nvim-ts-context-commentstring", commit = "0bf8fbc2ca8f8cdb6efbd0a9e32740d7a991e4c3" },
   { "L3MON4D3/LuaSnip", version = "^1" },
   { "MunifTanjim/nui.nvim", commit = "698e75814cd7c56b0dd8af4936bcef2d13807f3c" },
